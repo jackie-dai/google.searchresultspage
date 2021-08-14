@@ -1,0 +1,142 @@
+.header {
+
+    height: 7.9375rem;
+
+    border-bottom: 1px solid $searchBarShadow;
+
+    &__top {
+
+        height: 4.5rem;
+        padding: 5px;
+        padding-top: 20px;
+    }
+
+
+
+    &__logo {
+        
+        width: 5.8125rem;
+        height: 2.0625rem;
+
+        margin: 0px 15px;
+    }
+
+
+
+
+
+
+    &__searchbar {
+
+        width: 43.25rem;
+        height: 2.825rem;
+
+        margin-left: 30px;
+        border-radius: 40px;
+        box-shadow: 0px 0px 5px $searchBarShadow;
+        
+    }
+
+    &__search {
+
+        margin-left: 20px;
+        width: 34.0rem;
+        border: none;
+
+        &:focus {
+            
+            outline: none;
+        }
+
+    }
+
+    &__close {
+
+        padding: 10px;
+        >span {
+            
+            display: inline-block;
+
+            width: 2px;
+            height: 25px;
+            background-color: gray;
+            transform-origin: 1px 15.5px;
+        }
+
+        >span:first-child {
+            transform: rotate(45deg);
+        }
+
+        >span:last-child {
+            transform: rotate(-45deg);
+        }
+    }
+
+    &__line {
+
+        height: 30px;
+        margin-top: 8px;
+        margin-left: 10px;
+        border-right: 1px solid $searchBarShadow;
+    }
+
+    &__mic {
+
+        padding: 10px;
+
+    }
+
+    &__search-icon {
+        padding: 10px;
+    }
+
+
+
+
+
+
+    &__right {
+
+        margin-right: 40px;
+
+    }
+
+    &__settings {
+
+        margin: 0px 10px;
+    }
+
+    &__google-apps {
+         
+        margin: 0px 10px;
+
+        svg {
+
+            width: 24px;
+            height: 24px;
+
+            color: $navText;
+            fill: currentColor;
+        }
+    }
+
+    &__pfp {
+        
+        margin: 0px 10px;
+
+        img {
+            
+            width: 30px;
+            height: 30px;
+
+            border-radius: 50%;
+            transform: translateY(-2px);
+        }
+    }
+
+
+    &__nav {
+
+    }
+
+}

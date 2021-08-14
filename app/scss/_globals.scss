@@ -20,3 +20,27 @@ body {
     margin: 0;
     padding: 0;
 }
+
+
+// Flexbox
+
+.flex {
+
+    display: flex;
+
+    &-jc-c {
+        justify-content: center;
+    }
+    
+    &-ai-c {
+        align-items: center;
+    }
+
+    &-jc-sb {
+        justify-content: space-between;
+    }   
+
+}
+
+// close button 
+
